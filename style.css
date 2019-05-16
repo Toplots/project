@@ -1,0 +1,43 @@
+
+
+/* responsive video by www.sakuraost.com */
+.video {
+position: relative; /* pada position di buat dengan relative */
+padding-bottom: 56.66%; /* padding inilah sebagai responsivenya */ 
+height: 0; /* Properti ini di set jadi 0 */
+overflow: hidden;
+}
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%; 
+height: 100%;
+}
+
+/*Download box OPloverz -www.sakuraost.com*/
+.soraddl {
+font-family: segoe ui;
+font-weight: bold;
+font-size: 12.5px;
+padding: 5px;
+border: 1px solid #DDD;
+background: #F3F3F3;
+border-radius: 3px;
+}
+.soraddl .sorattl {
+padding: 8px 10px;
+color: #FFF;
+background: #01B0F0;
+}
+.soraddl .soraurl {
+margin-top: 3px;
+padding: 8px 10px;
+color: #444;
+background: #DDD;
+}
+.soraddl .soraurl a {
+color: #444;
+} 
